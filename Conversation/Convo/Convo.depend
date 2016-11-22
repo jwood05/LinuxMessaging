@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1478969056 source:/home/jonathan/Desktop/UM/Unix/Project/Conversation/Convo/main.cpp
+	<time.h>
+	<iostream>
+	<pthread.h>
+	<string>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"Monitor.h"
+	"Sender.h"
+	"Receiver.h"
+
+1474860566 /home/jonathan/Desktop/UM/Unix/Project/Conversation/Convo/include/Monitor.h
+	<chrono>
+	<string>
+	<thread>
+	"system_ping.h"
+
+1474856919 /home/jonathan/Desktop/UM/Unix/Project/Conversation/Convo/include/system_ping.h
+	<cstdio>
+	<iostream>
+	<sstream>
+	<string>
+	<fstream>
+	<cerrno>
+	<cstring>
+
+1479785653 /home/jonathan/Desktop/UM/Unix/Project/Conversation/Convo/include/Sender.h
+	<arpa/inet.h>
+	<chrono>
+	<iostream>
+	<netdb.h>
+	<netinet/in.h>
+	<stdio.h>
+	<string>
+	<string.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<thread>
+	<time.h>
+	<unistd.h>
+
+1475198547 /home/jonathan/Desktop/UM/Unix/Project/Conversation/Convo/include/Receiver.h
+	<sstream>
+	<string>
+	<netinet/in.h>
+	"Sender.h"
+
+1475110324 source:/home/jonathan/Desktop/UM/Unix/Project/Conversation/Convo/src/Monitor.cpp
+	"Monitor.h"
+
+1477330181 source:/home/jonathan/Desktop/UM/Unix/Project/Conversation/Convo/src/Receiver.cpp
+	"Receiver.h"
+
+1474865650 source:/home/jonathan/Desktop/UM/Unix/Project/Conversation/Convo/src/system_ping.cpp
+	"system_ping.h"
+
+1479785142 source:/home/jonathan/Desktop/UM/Unix/Project/Conversation/Convo/src/Sender.cpp
+	"Sender.h"
+
